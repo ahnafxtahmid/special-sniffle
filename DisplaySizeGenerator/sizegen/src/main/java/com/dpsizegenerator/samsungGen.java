@@ -62,6 +62,7 @@ public class samsungGen {
 
         System.out.println(Arrays.toString(masterdimensions));
     
+        //Export into file: local
         try{
 
             PrintStream ps = new PrintStream(new File("/home/ahnaf/Desktop/DimensionsForSamsungQMs.txt"));

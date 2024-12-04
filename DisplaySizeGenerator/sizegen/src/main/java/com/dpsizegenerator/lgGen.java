@@ -73,6 +73,8 @@ public class lgGen {
 
         System.out.println(Arrays.toString(masterDimensions));
 
+        //Export into file: local
+
         try{
             PrintStream ps = new PrintStream(new File("/home/ahnaf/Desktop/DimensionsForLGUH5J-H.txt"));
             System.setOut(ps);
